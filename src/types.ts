@@ -1,0 +1,1 @@
+export type CacheRecord = { pk: string; url: string; documentType?: string; actDate?: string; place?: string; status: string; parserVersion: string; updatedAt: string; fields: Record<string, unknown> };
